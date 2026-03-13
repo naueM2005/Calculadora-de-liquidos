@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to bottom,#06afd1,#06185c);
+  font-size: 15px;
+  text-align: center;
+  align-items: auto;
+  padding:20px;
+}
+#caixa-calculo{
+  background: white !important;
+  color:black;
+  text-align: center;
+  padding:15px ;
+  margin: 5px;
+}
+#caixa-resultado{
+  font-size: 16px;
+}
+section{
+  background-color: white;
+  border-radius:15px;
+  text-align: center;
+  width: 85%;
+  padding: 15px;
+  position:relative;
+  font-size:20px;
+  align-content: center;
+  margin: 40px auto;
+}
+
+footer{
+  color:white;
+}
+#tipo-calculo{
+  border:solid 2px #06afd1 ;
+  background:#0fd7ff ;
+  width: 16%;
+}
+input#por-quantos-dias{
+  border:solid 2px #06afd1 ;
+  background:#0fd7ff ;
+}
+input#medicamento{
+  border:solid 2px #06afd1;
+  background:#0fd7ff ;
+}
+input#receituario{
+  border:solid 2px #06afd1;
+  background:#0fd7ff ;
+}
+input#nomeMedicamento{
+  border:solid 2px #06afd1;
+  background:#0fd7ff ;
+}
+header{
+  color:white;
+  font-style: italic;
+}
+#c{
+  background:#06afd1 ;
+  border:solid #0fd7ff 3px;
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  color:white;
+}
+#receituario{
+  background:#06afd1 ;
+  border:solid #0fd7ff 3px;
+  color: white;
+}

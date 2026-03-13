@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculodeliquidos.css">
+    <title>Cálculo de Dispensação de Liquidos</title>
+  </head>
+  <body>
+    <header>
+      <h1>💊Calculo de Dispensação de Liquidos!💊</h1>
+    </header>
+    <section>
+      <div id="caixa-calculo">
+
+        <p>Qual o tipo de calculo :</p><br>
+        <select id="tipo-calculo">
+        <option value="">Selecione</option>
+        <option value="Para Mls" id="para-mls">Para Mls!</option>
+        <option value="Para Gotas" id="para-gotas">Para Gotas!</option>
+        <option value="Para Unidades" id="para-insulina">Para Insulina!</option>
+        </select></p><br><br>
+
+        <p>Digite o principio ativo do medicamento:<br><br>
+        <input type="text" id="nomeMedicamento" placeholder="Ex:Pregabalina...">
+        </p><br>
+        <p>Qual o tipo de receituário?</p><br>
+        <select id="receituario">
+        <option value="">Selecione</option>
+        <option value="amarela">Amarela</option>
+        <option value="azul">Azul</option>
+          <option value="branca">Branca</option>
+        <option value="branca-antibiotico">Branca Antibiotico</option>
+        <option value="branca-psicotropico">Branca Psicotropico</option>
+        </select></p><br><br>
+        <p id="texto-quantidade">Quantas gotas o paciente toma por dia?<br><br>
+        <input type="number" name="medicamento" id="medicamento"></p><br>
+        <p>O medicamento e de uso continuo ou em dias alternados?</p><br>
+        <input type="radio" name="tipo-de-uso" id="uso-continuo" value="uso-continuo">
+        <label for="uso-continuo">Uso Continuo</label><br><br>
+        <input type="radio" name="tipo-de-uso" id="dias-limitados" value="dias-alternados">
+        <label for="dias-limitados">Medico estipulou dias </label><br><br
+        <p>Por quantos dias o paciente tomara o medicameto?<br><br>
+        <input type="number" name="por-quantos-dias" id="por-quantos-dias"><br><br>
+        
+        <input type="button" id="c" value="Calcular" onclick="calcular()">
+      </div>
+      <div id="caixa-resultado">
+        A quantidade de comprimidos a serem dispençados aparecera aqui!
+      </div><br>
+    </section><br>
+    <footer>
+      ©Nauê Moreira
+    </footer>
+    <script src="./logicaliquidos.js"></script>
+  </body>
+</html>
